@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="bnsp.com.oopbnsp1.AddInventaris">
+
+
+    <RadioGroup
+        android:id="@+id/add_inventaris_radio"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Perkakas" />
+
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Berkas" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/add_inventaris_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Isi Nama Inventaris" />
+
+    <Button
+        android:id="@+id/add_inventaris_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD" />
+</LinearLayout>
